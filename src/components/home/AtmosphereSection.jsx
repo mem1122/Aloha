@@ -3,7 +3,7 @@ const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me
 import React from "react";
 import { motion } from "framer-motion";
 
-const INTERIOR_IMAGE = "/public/images/54e3ffce0_generated_0480264b.png";
+const INTERIOR_IMAGE = "/images/54e3ffce0_generated_0480264b.png";
 
 export default function AtmosphereSection() {
   return (
