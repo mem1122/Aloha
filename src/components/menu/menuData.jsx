@@ -2,7 +2,7 @@ const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me
 
 export const menuItems = {
   coffee: [
-    { name: "Эспрессо", price: 180, image: "7539391c3_generated_f6db9531.png", ingredients: "Арабика single origin, Бразилия Серрадо" },
+    { name: "Эспрессо", price: 180, image: "/images/7539391c3_generated_f6db9531.png", ingredients: "Арабика single origin, Бразилия Серрадо" },
     { name: "Капучино", price: 280, image: "/images/7539391c3_generated_f6db9531.png", ingredients: "Двойной эспрессо, вспененное молоко, латте-арт" },
     { name: "Флэт Уайт", price: 300, image: "/images/7539391c3_generated_f6db9531.png", ingredients: "Двойной ристретто, микропена молока" },
     { name: "Раф Лаванда", price: 340, image: "/images/7539391c3_generated_f6db9531.png", ingredients: "Эспрессо, сливки, лавандовый сироп домашнего приготовления" },

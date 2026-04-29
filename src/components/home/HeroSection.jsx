@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const HERO_IMAGE = "/images/71a19671c_generated_81f98933.png";
+const HERO_IMAGE = "/images/7539391c3_generated_f6db9531.png";
 
 export default function HeroSection() {
   return (
