@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 
 const contactBlocks = [
-  { icon: MapPin, label: "Адрес", value: "ул. Дцержиского, 18, Тюмень" },
+  { icon: MapPin, label: "Адрес", value: "ул. Дзержиского, 18, Тюмень" },
   { icon: Phone, label: "Телефон", value: "+7 (999) 123-45-67" },
   { icon: Mail, label: "Email", value: "hello@aloha.coffee" },
   { icon: Clock, label: "Часы работы", value: "Пн–Пт: 7:30 – 21:00\nСб–Вс: 9:00 – 22:00" },
