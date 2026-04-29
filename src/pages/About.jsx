@@ -4,9 +4,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import StaffCard from "../components/about/StaffCard";
 
-const BARISTA_IMG = "https://media.db.com/images/public/69f1d6c37edd54d65685f724/3d28e9a7a_generated_8b67e4ee.png";
-const CONFECTIONER_IMG = "https://media.db.com/images/public/69f1d6c37edd54d65685f724/a04656d7a_generated_5680bc80.png";
-const MANAGER_IMG = "https://media.db.com/images/public/69f1d6c37edd54d65685f724/a5eb8815f_generated_a1c8d0b8.png";
+const BARISTA_IMG = "/public/images/3d28e9a7a_generated_8b67e4ee.png";
+const CONFECTIONER_IMG = "/public/images/a04656d7a_generated_5680bc80.png";
+const MANAGER_IMG = "/public/images/a5eb8815f_generated_a1c8d0b8.png";
 
 const staff = [
   {
