@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 
 const contactBlocks = [
-  { icon: MapPin, label: "Адрес", value: "ул. Цветочная, 12, Москва" },
+  { icon: MapPin, label: "Адрес", value: "ул. Дцержиского, 18, Тюмень" },
   { icon: Phone, label: "Телефон", value: "+7 (999) 123-45-67" },
   { icon: Mail, label: "Email", value: "hello@aloha.coffee" },
   { icon: Clock, label: "Часы работы", value: "Пн–Пт: 7:30 – 21:00\nСб–Вс: 9:00 – 22:00" },
@@ -36,7 +36,7 @@ export default function Contacts() {
           >
             <iframe
               title="Aloha Coffee Map"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=37.58%2C55.74%2C37.62%2C55.76&layer=mapnik"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=65.53955733776094%2C57.15850441598141%2C65.54206788539888%2C57.15949499015386&amp;layer=mapnik"
               className="w-full h-full border-0 grayscale opacity-80"
               loading="lazy"
             />
